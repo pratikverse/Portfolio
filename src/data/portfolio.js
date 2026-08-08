@@ -73,7 +73,7 @@ export const projects = [
     summary:
       "AI-powered visual fashion search engine that finds visually similar catalog products from an uploaded photo — YOLOv8 for garment detection, DINOv2 for embeddings, and FAISS for similarity search. Generates NLP garment descriptions and retailer links directly from retrieval results, and runs real-time inference on a 20K-image catalog via AWS Lambda.",
     github: "https://github.com/pratikverse/Drape",
-    live: "https://drape-orcin.vercel.app",
+    building: true,
     tags: ["FastAPI", "React", "YOLOv8", "DINOv2", "FAISS"],
     featured: true,
   },

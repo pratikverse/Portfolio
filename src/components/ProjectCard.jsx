@@ -27,6 +27,11 @@ export default function ProjectCard({ project }) {
               <ExternalLink size={16} />
             </a>
           )}
+          {project.building && (
+            <span className="num rounded-md border border-border px-2 py-0.5 text-xs text-muted-foreground">
+              Currently Building
+            </span>
+          )}
         </div>
       </div>
 
