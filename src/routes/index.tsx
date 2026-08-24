@@ -28,7 +28,7 @@ const PROFILE = {
   role: "Software Engineer",
   tagline:
     "I build full-stack and ML-powered applications — from retrieval systems and recommenders to the APIs and interfaces that ship them.",
-  location: "Jaipur, India",
+  location: "New Delhi, India",
   email: "kpratik653@gmail.com",
   github: "https://github.com/pratikverse",
   linkedin: "https://linkedin.com/in/pratikshrivastava19",
