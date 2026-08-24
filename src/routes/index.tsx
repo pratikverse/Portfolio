@@ -38,7 +38,7 @@ const PROFILE = {
 const ABOUT_FACTS = [
   { label: "Degree", value: "B.Tech in Computer Science" },
   { label: "School", value: "Manipal University Jaipur" },
-  { label: "Graduating", value: "June 2026" },
+  { label: "Graduated", value: "July 2026" },
   { label: "Availability", value: "Open to full-time SWE roles" },
 ];
 
@@ -122,7 +122,7 @@ const EDUCATION = [
   {
     school: "Manipal University Jaipur",
     degree: "B.Tech in Computer Science",
-    period: "July 2022 — June 2026",
+    period: "July 2022 — July 2026",
     detail:
       "Coursework: Data Structures, OOPs, Software Engineering, Computer Networking, DBMS, Cloud Computing, AI/ML",
   },
@@ -476,17 +476,19 @@ function About() {
           <Reveal className="md:col-span-3" delay={0}>
             <div className="space-y-4 text-base leading-relaxed text-muted-foreground">
               <p>
-                I'm pursuing a B.Tech in Computer Science at Manipal University
-                Jaipur, with a focus on full-stack and ML-powered applications.
-                My favorite work lives where retrieval systems and recommenders
-                meet the APIs and interfaces that ship them — I'm just as happy
-                tuning an embedding pipeline as I am refining a UI.
+                I recently graduated with a B.Tech in Computer Science from
+                Manipal University Jaipur, with a focus on full-stack and
+                ML-powered applications. My favorite work lives where retrieval
+                systems and recommenders meet the APIs and interfaces that ship
+                them — I'm just as happy tuning an embedding pipeline as I am
+                refining a UI.
               </p>
               <p>
-                Outside of coursework, I ship side projects that let me explore
-                new tools across the ML and web stack — from FAISS-backed visual
-                search to hybrid recommenders. I write a lot of tests, read a
-                lot of postmortems, and believe the best software is built
+                Alongside coursework, I shipped side projects that let me
+                explore new tools across the ML and web stack — from
+                FAISS-backed visual search to hybrid recommenders. I write a
+                lot of tests, read a lot of postmortems, and believe the best
+                software is built
                 openly.
               </p>
             </div>
