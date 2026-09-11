@@ -38,7 +38,7 @@ const PROFILE = {
 const ABOUT_FACTS = [
   { label: "Degree", value: "B.Tech in Computer Science" },
   { label: "School", value: "Manipal University Jaipur" },
-  { label: "Graduated", value: "July 2026" },
+  { label: "Graduated", value: "August 2026" },
   { label: "Availability", value: "Open to full-time SWE roles" },
 ];
 
@@ -48,7 +48,7 @@ const PROJECTS = [
     description:
       "AI-powered visual fashion search engine that finds visually similar catalog products from an uploaded photo — YOLOv8 for garment detection, DINOv2 for embeddings, and FAISS for similarity search. Generates NLP garment descriptions and retailer links directly from retrieval results, and runs real-time inference on a 20K-image catalog via AWS Lambda.",
     tags: ["FastAPI", "React", "YOLOv8", "DINOv2", "FAISS"],
-    link: "https://drape-orcin.vercel.app/",
+    link: "https://drape-web.onrender.com/",
     accent: "from-blue-500/15 to-blue-500/0",
   },
   {
@@ -56,7 +56,7 @@ const PROJECTS = [
     description:
       "Hybrid music recommender blending autoencoder latent similarity, audio features, genre, and popularity into one ranked score, with a per-result panel explaining each signal's contribution. Ships recommendations, mood discovery, genre exploration, playlist building, and a 3D PCA visualization of the embedding space.",
     tags: ["FastAPI", "React", "Vite", "Spotify API"],
-    link: "https://harmoniq-ruddy.vercel.app",
+    link: "https://harmoniq-web.onrender.com/",
     accent: "from-emerald-500/15 to-emerald-500/0",
   },
   {
@@ -64,7 +64,7 @@ const PROJECTS = [
     description:
       "AI-powered book illustration pipeline that extracts text from PDFs via OCR, identifies characters with LLM-based NER and alias merging, and generates page-consistent illustrations by feeding a running visual profile into each prompt. Supports multiple LLM and image-generation backends (OpenAI, Gemini, Cloudflare Workers AI).",
     tags: ["OCR", "LLM NER", "Image Generation", "Supabase"],
-    link: "https://booktures-rho.vercel.app",
+    link: "https://booktures-web.onrender.com/",
     accent: "from-violet-500/15 to-violet-500/0",
   },
   {
@@ -95,25 +95,25 @@ const PROJECTS = [
 
 const EXPERIENCE = [
   {
-    role: "Data Science Intern",
+    role: "Machine Learning Intern",
     org: "Dodge AI",
     period: "Jun 2025 — Jul 2025",
-    location: "Remote",
+    location: "Remote, KA",
     points: [
-      "Designed an end-to-end ML pipeline for customer purchase behavior prediction using regression models and Random Forests.",
-      "Built a hybrid recommendation engine combining content-based and collaborative filtering for personalized recommendations.",
-      "Ran exploratory data analysis and engineered behavioral/transactional features to improve prediction accuracy.",
+      "Built a purchase-intent classifier on 2.75M+ events (22 leakage-safe RFM features), reaching 0.156 PR-AUC — ~2x baseline — on a 0.2%-positive class.",
+      "Shipped a hybrid recommender (content + ALS + cold-start) scoring ~24x the MAP@10 of a most-popular baseline on held-out users.",
+      "Used 16-factor ALS embeddings instead of a dense item-similarity matrix (infeasible at 185K products), scaling coverage from 5K to the full catalog.",
     ],
   },
   {
     role: "Software Engineering Intern",
     org: "Siemens Technology & Services Pvt. Ltd.",
     period: "May 2024 — Aug 2024",
-    location: "India",
+    location: "Remote, KA",
     points: [
-      "Built a real-time frontend for an IIoT water-monitoring platform, visualizing live sensor data on interactive dashboards.",
-      "Integrated REST APIs with near real-time updates for operational monitoring and historical trend analysis.",
-      "Built GIS-based map visualizations with live meter status and anomaly alerts across multiple sites.",
+      "Built RESTful API integration layer for a 3-tier IIoT water-monitoring dashboard with near real-time polling and incremental UI updates.",
+      "Designed GIS map visualizations with colour-coded, per-sensor status markers for quick anomaly spotting.",
+      "Handled missing/inconsistent sensor data gracefully in the parsing layer to keep visualizations from breaking.",
     ],
   },
 ];
@@ -122,7 +122,7 @@ const EDUCATION = [
   {
     school: "Manipal University Jaipur",
     degree: "B.Tech in Computer Science",
-    period: "July 2022 — July 2026",
+    period: "August 2022 — August 2026",
     detail:
       "Coursework: Data Structures, OOPs, Software Engineering, Computer Networking, DBMS, Cloud Computing, AI/ML",
   },
